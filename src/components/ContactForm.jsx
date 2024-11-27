@@ -6,17 +6,15 @@ export function ContactForm() {
   const [email, setEmail] = useState("");
   const [text, setText] = useState("");
 
-  console.log(firstname);
-  console.log(lastname);
-  console.log(email);
-  console.log(text);
+  const [mailsucces, setMailsucces] = useState(false);
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-
+    console.log("TEST");
+    
     try {
-      const response = await fetch("http://localhost:3000/contact", {
+      const response = await fetch("https://portfolio-back-bz67.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -31,6 +29,12 @@ export function ContactForm() {
 
       if (response.ok) {
         console.log("Message sent successfully!");
+        setMailsucces(true);
+        setFirstname("");
+        setLastname("");
+        setEmail("");
+        setText("");
+
       } else {
         console.log("Failed to send the message.");
       }
@@ -83,6 +87,7 @@ export function ContactForm() {
             <button type="submit" className="contact-btn">
               Send {">>"}
             </button>
+            <p className="contact-form-confirmation">{mailsucces ? "Message sent successfully!" : null}</p> 
           </div>
         </form>
       </div>

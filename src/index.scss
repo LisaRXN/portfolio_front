@@ -961,6 +961,11 @@ $hover-color: #ddd;
     font-size: 1em;
     background-color: transparent;
    }
+   
+   &-form-confirmation{
+    padding: 10px;
+    color:$yellow;
+   }
 }
 
 @media screen and (max-width: 1000px) {
