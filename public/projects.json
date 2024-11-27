@@ -1,0 +1,117 @@
+[
+    {
+        "id": "1",
+        "title": "i-Shop",
+        "image": "img/ishop0.png",
+        "stack": "PHP CSS Javascript",
+        "description": "Fullstack developpment of an e-commerce",
+        "links": [
+            {
+            "href": "http://lisaeriksen.eu", 
+            "label": "Live"
+            },
+            {
+            "href": "https://fr.github.com/LisaRXN", 
+            "label": "Github"
+            }
+        ],
+        "slides":[
+            {
+                "src": "/img/ishop0.png", 
+                "alt": ""
+                },
+                {
+                "src": "/img/ishop1.png", 
+                "alt": "Github"
+                },
+                {
+                "src": "/img/ishop2.png", 
+                "alt": "Github"
+                },
+                {
+                "src": "/img/ishop3.png", 
+                "alt": "Github"
+                },
+                {
+                "src": "/img/ishop4.png", 
+                "alt": "Github"
+                },
+                {
+                "src": "/img/ishop5.png", 
+                "alt": "Github"
+                }
+
+        ],
+        "text": "IShop is a fully functional e-commerce website that I developed from scratch. The backend, built with PHP and connected to a database, powers essential features like user authentication via email or Google accounts, a dynamic shopping cart, and secure payment processing through Stripe. On the frontend, I design a responsive and intuitive interface, delivering a seamless and enjoyable shopping experience."
+    
+    },
+    {
+        "id": "2",
+        "title": "azimut",
+        "image": "/img/project2.png",
+        "iframe": "https://azimut-productions.com/",
+        "stack": "PHP CSS Javascript",
+        "description": "Fullstack developpment for a production agency website",
+        "links": [
+            {
+            "href": "", 
+            "label": "Live"
+            },
+            {
+            "href": "https://fr.github.com/LisaRXN", 
+            "label": "Github"
+            }
+        ],
+        "slides":[
+            {
+            "src": "/img/azimut1.png", 
+            "alt": ""
+            },
+            {
+            "src": "/img/azimut2.png", 
+            "alt": "Github"
+            },
+            {
+            "src": "/img/azimut3.png", 
+            "alt": "Github"
+            },
+            {
+            "src": "/img/azimut4.png", 
+            "alt": "Github"
+            },
+            {
+            "src": "/img/azimut5.png", 
+            "alt": "Github"
+            },
+            {
+            "src": "/img/azimut6.png", 
+            "alt": "Github"
+            }
+        ],
+        "text":"A dynamic website created for Azimut Prod, a production agency specializing in music videos and brand films. The backend, developed with PHP, ensures smooth functionality, while the frontend, built with JavaScript, enables seamless video visualization directly on the platform. This site provides an engaging and professional showcase of the agency's work."
+    },
+    {
+        "id": "3",
+        "image": "/img/project3.png",
+        "stack": "PHP CSS Javascript",
+        "title": "cynthia alarcón",
+        "description": "Fullstack developpment for a publicist redactor website",
+        "links": [
+            {
+            "href": "", 
+            "label": "Live"
+            },
+            {
+            "href": "https://fr.github.com/LisaRXN", 
+            "label": "Github"
+            }
+        ],
+        "slides":[
+            {
+            "src": "/img/project3.png", 
+            "alt": ""
+            }
+        ],
+        "text":"A dynamic website created for Azimut Prod, a production agency specializing in music videos and brand films. The backend, developed with PHP, ensures smooth functionality, while the frontend, built with JavaScript, enables seamless video visualization directly on the platform. This site provides an engaging and professional showcase of the agency's work."
+    }
+]

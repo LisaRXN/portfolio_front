@@ -1,0 +1,7 @@
+# Autoriser tout le monde à explorer tout le site
+User-agent: *
+
+# Empêcher l'indexation des pages de login
+Disallow: /signin
+Disallow: /epitech
+
