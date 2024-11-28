@@ -1,5 +1,3 @@
-import { Title } from "../Title";
-
 const openModal = () => {
   const blocs = document.querySelector(".competencies-blocs");
   const btn = document.querySelector(".competencies-btn");
@@ -12,7 +10,7 @@ export function Competencies() {
     <div className="competencies">
       <div className="competencies-title">
         <p>
-          <span style={{ color: "#646cff" }}>#</span>Bloc de compétences RNCP 5
+          <span style={{ color: "#646cff" }}>#</span>Profesionnal Skills RNCP5
         </p>
         <button className="competencies-btn" onClick={openModal}>
           <img src="/img/btn.png"></img>
@@ -27,10 +25,10 @@ export function Competencies() {
             RNCP38436BC01 - Cadrer un projet et conceptualiser une solution web
           </h4>
           <p>
-            Rédiger un Cahier Des Charges (CDC) en partant d'apo une expression
-            de besoins, afin de cadrer fonctionnellement un projet de solution
-            web dans le respect des réglementations en vigueur et notamment le
-            RGPD.
+            Rédiger un Cahier Des Charges (CDC) en partant d{"'"}apo une
+            expression de besoins, afin de cadrer fonctionnellement un projet de
+            solution web dans le respect des réglementations en vigueur et
+            notamment le RGPD.
           </p>
 
           <p>
@@ -48,13 +46,13 @@ export function Competencies() {
           <p>
             Réaliser une maquette afin de permettre au client de valider la
             structure de la solution web en respectant les bonnes pratiques en
-            termes d'apo ergonomie et d'apo accessibilité.
+            termes d{"'"}apo ergonomie et d{"'"}apo accessibilité.
           </p>
 
           <p>
             Identifier les fonctionnalités à développer, en modélisant les
-            divers éléments et leurs interconnexions, afin de structurer l'apo
-            architecture de la solution web et de Base DeDonnées (BDD)
+            divers éléments et leurs interconnexions, afin de structurer l{"'"}
+            apo architecture de la solution web et de Base DeDonnées (BDD)
           </p>
 
           <p>
@@ -70,10 +68,14 @@ export function Competencies() {
           <h4>RNCP38436BC02 - Développer une solution web</h4>
           <p>
             Développer le prototype de la solution web afin de présenter
-            l’architecture technique au client Rédiger le code de la solution en
-            transcrivant les fonctionnalités du CDC, en respectant les normes
-            d’accessibilité, d’ergonomie, de référencement, et la réglementation
-            en vigueur afin de développer la solution web.
+            l’architecture technique au client.
+          </p>
+
+          <p>
+            Rédiger le code de la solution en transcrivant les fonctionnalités
+            du CDC, en respectant les normes d’accessibilité, d’ergonomie, de
+            référencement, et la réglementation en vigueur afin de développer la
+            solution web.
           </p>
 
           <p>
@@ -82,59 +84,60 @@ export function Competencies() {
             (HTML, CSS, JS, …)
           </p>
 
+          <p>Implémenter la partie frontend d{"'"}une solution web.</p>
+
           <p>
-            Implémenter la partie "front-end" d'une solution web Implémenter la
-            logique et la base de données assurant la persistance des données
-            côté serveur (le "back-end").{" "}
+            Implémenter la logique et la base de données assurant la persistance
+            des données côté serveur, le backend.{" "}
           </p>
 
           <p>
-            Implémenter des règles d'authentification, en respectant les bonnes
-            pratiques en matière de sécurité, afin de sécuriser l'accès à une
-            solution web.
+            Implémenter des règles d{"'"}authentification, en respectant les
+            bonnes pratiques en matière de sécurité, afin de sécuriser l{"'"}
+            accès à une solution web.
           </p>
 
           <p>
             Implémenter un plan de tests en concevant les différents tests
-            unitaires et d’intégration afin de vérifier que l’ensemble des
-            fonctionnalités développées fonctionne bien séparément et à
-            l’unisson.
+            unitaires et d{"'"}intégration afin de vérifier que l{"'"}ensemble
+            des fonctionnalités développées fonctionne bien séparément et à l
+            {"'"}unisson.
           </p>
           <p>
             Déployer une application web en utilisant un serveur afin de rendre
-            l’application accessible aux utilisateurs.
+            l{"'"}application accessible aux utilisateurs.
           </p>
         </div>
 
         {/* Bloc 3 */}
         <div className="competencies-bloc">
           <h4>
-            RNCP38436BC03 - Déployer un système d’assurance qualité tout au long
-            du cycle de vie d’une solution web.
+            RNCP38436BC03 - Déployer un système d{"'"}assurance qualité tout au
+            long du cycle de vie d{"'"}une solution web.
           </h4>
           <p>
-            Monitorer le lancement d'une solution web, en recueillant les
-            retours utilisateurs, afin d'évaluer la qualité de la solution web
-            déployée.
+            Monitorer le lancement d{"'"}une solution web, en recueillant les
+            retours utilisateurs, afin d{"'"}évaluer la qualité de la solution
+            web déployée.
           </p>
 
           <p>
-            Identifier des améliorations qualitatives et de performance d'une
-            solution web, en analysant les retours utilisateurs et les données
-            d'analyse du trafic, afin d'améliorer la qualité et la disponibilité
-            d'une solution web déployée.
+            Identifier des améliorations qualitatives et de performance d{"'"}
+            une solution web, en analysant les retours utilisateurs et les
+            données d{"'"}analyse du trafic, afin d{"'"}améliorer la qualité et
+            la disponibilité d{"'"}une solution web déployée.
           </p>
 
           <p>
-            Implémenter la partie "front-end" d'une solution web Implémenter la
-            logique et la base de données assurant la persistance des données
-            côté serveur (le "back-end").
+            Implémenter la partie front-end d{"'"}une solution web Implémenter
+            la logique et la base de données assurant la persistance des données
+            côté serveur, le back-end.
           </p>
 
           <p>
-            Implémenter des règles d'authentification, en respectant les bonnes
-            pratiques en matière de sécurité, afin de sécuriser l'accès à une
-            solution web.
+            Implémenter des règles d{"'"}authentification, en respectant les
+            bonnes pratiques en matière de sécurité, afin de sécuriser l{"'"}
+            accès à une solution web.
           </p>
 
           <p>
@@ -144,9 +147,9 @@ export function Competencies() {
             d’amélioration.
           </p>
           <p>
-            Rédiger un document argumentatif en listant des propositions
-            d'améliorations afin de faire valider des préconisations de
-            développements correctifs d'une solution web.
+            Rédiger un document argumentatif en listant des propositions d{"'"}
+            améliorations afin de faire valider des préconisations de
+            développements correctifs d{"'"}une solution web.
           </p>
         </div>
       </div>

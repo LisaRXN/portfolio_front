@@ -1,6 +1,6 @@
 $dark: #242424;
 $grey: #333;
-$lightgrey: rgba(211, 211, 211, 0.786); 
+$lightgrey: #d3d3d3c8; 
 $light: rgba(255, 255, 255, 0.87);
 $violet: #646cff;
 $yellow: #f8b300;
@@ -961,7 +961,7 @@ $hover-color: #ddd;
     font-size: 1em;
     background-color: transparent;
    }
-   
+
    &-form-confirmation{
     padding: 10px;
     color:$yellow;
