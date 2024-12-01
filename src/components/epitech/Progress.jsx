@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Card } from "../Card";
 
 const openModal = () => {
   const blocs = document.querySelector(".progress-blocs");
