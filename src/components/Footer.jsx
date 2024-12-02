@@ -17,7 +17,7 @@ export function Footer() {
         </div>
 
         <div className="footer-right">
-          <a href="https://fr.linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/lisa-eriksen-738a6533a/" target="_blank">
             <img src="/img/linkedin.png"></img>
           </a>
           <a href="https://fr.github.com/LisaRXN" target="_blank">

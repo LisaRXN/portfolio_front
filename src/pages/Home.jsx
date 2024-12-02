@@ -171,13 +171,13 @@ export function Home() {
                 </div>
                 <div>
                   <img src="/img/linkedin.png" alt="LinkedIn icon"></img>
-                  <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/lisa-eriksen-738a6533a/" target="_blank" rel="noopener noreferrer">
                     Linkedin
                   </a>
                 </div>
                 <div>
                   <img src="/img/github.png" alt="GitHub icon"></img>{" "}
-                  <a href="https://github.com/" target="_blank" title="Email me" rel="noopener noreferrer">
+                  <a href="https://github.com/LisaRXN" target="_blank" title="Email me" rel="noopener noreferrer">
                     Github
                   </a>
                 </div>
