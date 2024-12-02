@@ -78,7 +78,7 @@ export function About() {
 
             <a
               className="page-about-btn"
-              href="/ERIKSEN_CV.pdf"
+              href="/CV_ERIKSEN.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
