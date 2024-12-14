@@ -68,8 +68,8 @@ export function Header() {
             <span>#</span>about-me
           </a>
           <a
-            className={activePage === "epitech" ? "active" : ""}
-            onClick={() => handleLinkClick("signin")}
+            // className={activePage === "epitech" ? "active" : ""}
+            // onClick={(() => handleLinkClick("signin"))}
           >
             <div className="navbar-epitech-container"><img className="navbar-epitech" src="/img/epitech.png"></img></div>
           </a>
@@ -93,8 +93,8 @@ export function Header() {
               <span>#</span>about-me
             </a>
             <a
-            className={activePage === "epitech" ? "active" : ""}
-            onClick={() => handleLinkClick("signin")}
+            // className={activePage === "epitech" ? "active" : ""}
+            // onClick={() => handleLinkClick("signin")}
           >
             <div className="navbar-epitech-container"><img className="navbar-epitech" src="/img/epitech.png"></img></div>
           </a>
