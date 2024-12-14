@@ -18,12 +18,15 @@ return( <>
     
     <div className="card-links-container">
         {/* <a href ="#projects" className="card-title">{title}</a> */}
+        <div>
         <Link to="/projects" className="card-title">{title}</Link>
         <p>{description}</p>
-
+        </div>
+        <div className='card-container-links'>
         {links.map( (link, index) => {
             return <a className="card-links" key = {index} href = {link.href} target="_blank" >  {link.label} {">>"} </a>
         })}
+        </div>
     </div>
 
 </div>
