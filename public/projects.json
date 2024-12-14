@@ -1,17 +1,111 @@
 [
     {
         "id": "1",
+        "title": "yowl",
+        "image": "img/yowl0.png",
+        "stack": "Node.js MySQL React Tailwind",
+        "description": "Fullstack developpment of an e-commerce",
+        "links": [
+            {
+            "href": "", 
+            "label": "Live"
+            },
+            {
+            "href": "https://github.com/LisaRXN/yowl_front", 
+            "label": "Github"
+            }
+        ],
+        "slides":[
+            {
+                "src": "/img/yowl0.png", 
+                "alt": ""
+                },
+                {
+                "src": "/img/yowl1.png", 
+                "alt": "Github"
+                },
+                {
+                "src": "/img/yowl2.png", 
+                "alt": "Github"
+                },
+                {
+                "src": "/img/yowl3.png", 
+                "alt": "Github"
+                },
+                {
+                "src": "/img/yowl4.png", 
+                "alt": "Github"
+                },
+                {
+                "src": "/img/yowl5.png", 
+                "alt": "Github"
+                },
+                {
+                "src": "/img/yowl6.png", 
+                "alt": "Github"
+                }
+
+        ],
+        "text": "YOWL is a dynamic web application I developed using Node.js for the backend and React for the frontend. The platform allows users to search for businesses, read and write reviews, and rate companies. With a robust backend handling user authentication, database management, and API integrations, and a responsive, intuitive frontend, YOWL delivers a seamless experience for its community."
+    },
+    {
+        "id": "2",
+        "title": "azimut",
+        "image": "/img/project2.png",
+        "iframe": "https://azimut-productions.com/",
+        "stack": "PHP CSS Javascript",
+        "description": "Fullstack developpment for a production agency website",
+        "links": [
+            {
+            "href": "", 
+            "label": "Live"
+            },
+            {
+            "href": "https://github.com/LisaRXN/azimut", 
+            "label": "Github"
+            }
+        ],
+        "slides":[
+            {
+            "src": "/img/azimut1.png", 
+            "alt": ""
+            },
+            {
+            "src": "/img/azimut2.png", 
+            "alt": "Github"
+            },
+            {
+            "src": "/img/azimut3.png", 
+            "alt": "Github"
+            },
+            {
+            "src": "/img/azimut4.png", 
+            "alt": "Github"
+            },
+            {
+            "src": "/img/azimut5.png", 
+            "alt": "Github"
+            },
+            {
+            "src": "/img/azimut6.png", 
+            "alt": "Github"
+            }
+        ],
+        "text":"A dynamic website created for Azimut Prod, a production agency specializing in music videos and brand films. The backend, developed with PHP, ensures smooth functionality, while the frontend, built with JavaScript, enables seamless video visualization directly on the platform. This site provides an engaging and professional showcase of the agency's work."
+    },
+    {
+        "id": "3",
         "title": "i-Shop",
         "image": "img/ishop0.png",
         "stack": "PHP CSS Javascript",
         "description": "Fullstack developpment of an e-commerce",
         "links": [
             {
-            "href": "http://lisaeriksen.eu", 
+            "href": "", 
             "label": "Live"
             },
             {
-            "href": "https://fr.github.com/LisaRXN", 
+            "href": "https://github.com/LisaRXN/Ishop", 
             "label": "Github"
             }
         ],
@@ -46,54 +140,9 @@
     
     },
     {
-        "id": "2",
-        "title": "azimut",
-        "image": "/img/project2.png",
-        "iframe": "https://azimut-productions.com/",
-        "stack": "PHP CSS Javascript",
-        "description": "Fullstack developpment for a production agency website",
-        "links": [
-            {
-            "href": "", 
-            "label": "Live"
-            },
-            {
-            "href": "https://fr.github.com/LisaRXN", 
-            "label": "Github"
-            }
-        ],
-        "slides":[
-            {
-            "src": "/img/azimut1.png", 
-            "alt": ""
-            },
-            {
-            "src": "/img/azimut2.png", 
-            "alt": "Github"
-            },
-            {
-            "src": "/img/azimut3.png", 
-            "alt": "Github"
-            },
-            {
-            "src": "/img/azimut4.png", 
-            "alt": "Github"
-            },
-            {
-            "src": "/img/azimut5.png", 
-            "alt": "Github"
-            },
-            {
-            "src": "/img/azimut6.png", 
-            "alt": "Github"
-            }
-        ],
-        "text":"A dynamic website created for Azimut Prod, a production agency specializing in music videos and brand films. The backend, developed with PHP, ensures smooth functionality, while the frontend, built with JavaScript, enables seamless video visualization directly on the platform. This site provides an engaging and professional showcase of the agency's work."
-    },
-    {
-        "id": "3",
+        "id": "4",
         "image": "/img/project3.png",
-        "stack": "PHP CSS Javascript",
+        "stack": "CSS Javascript",
         "title": "cynthia alarcón",
         "description": "Fullstack developpment for a publicist redactor website",
         "links": [
@@ -102,13 +151,21 @@
             "label": "Live"
             },
             {
-            "href": "https://fr.github.com/LisaRXN", 
+            "href": "https://github.com/LisaRXN/cynthiaalarcon", 
             "label": "Github"
             }
         ],
         "slides":[
             {
             "src": "/img/project3.png", 
+            "alt": ""
+            },
+            {
+            "src": "/img/cynthia2.png", 
+            "alt": ""
+            },
+            {
+            "src": "/img/cynthia3.png", 
             "alt": ""
             }
         ],

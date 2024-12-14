@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 
 export function Card({image, iframe, stack, title, description, links, id}){
@@ -16,7 +17,8 @@ return( <>
     <div className="card-stack">{stack}</div>
     
     <div className="card-links-container">
-        <a href ="#projects" className="card-title">{title}</a>
+        {/* <a href ="#projects" className="card-title">{title}</a> */}
+        <Link to="/projects" className="card-title">{title}</Link>
         <p>{description}</p>
 
         {links.map( (link, index) => {
