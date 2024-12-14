@@ -4,7 +4,7 @@
         "title": "yowl",
         "image": "img/yowl0.png",
         "stack": "Node.js MySQL React Tailwind",
-        "description": "Fullstack developpment of an e-commerce",
+        "description": "A Web Application for Reviews, Ratings, and Community Engagement",
         "links": [
             {
             "href": "", 
