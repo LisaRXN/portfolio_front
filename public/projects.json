@@ -4,10 +4,10 @@
         "title": "yowl",
         "image": "img/yowl0.png",
         "stack": "Node.js MySQL React Tailwind",
-        "description": "A Web Application for Reviews, Ratings, and Community Engagement",
+        "description": "A Web Application for Reviews, Ratings, Comments and Community Engagement",
         "links": [
             {
-            "href": "", 
+            "href": "https://yowl-front-rho.vercel.app/", 
             "label": "Live"
             },
             {
@@ -46,7 +46,7 @@
                 }
 
         ],
-        "text": "YOWL is a dynamic web application I developed using Node.js for the backend and React for the frontend. The platform allows users to search for businesses, read and write reviews, and rate companies. With a robust backend handling user authentication, database management, and API integrations, and a responsive, intuitive frontend, YOWL delivers a seamless experience for its community."
+        "text": "YOWL is a dynamic web application I developed using Node.js for the backend and React for the frontend. The platform allows users to search for businesses, read and write reviews ans comments, rate companies. With a robust backend handling user authentication, database management, and API integrations, and a responsive, intuitive frontend, YOWL delivers a seamless experience for its community."
     },
     {
         "id": "2",
@@ -57,7 +57,7 @@
         "description": "Fullstack developpment for a production agency website",
         "links": [
             {
-            "href": "", 
+            "href": "https://azimut-productions.com/", 
             "label": "Live"
             },
             {
@@ -101,7 +101,7 @@
         "description": "Fullstack developpment of an e-commerce",
         "links": [
             {
-            "href": "", 
+            "href": "https://lisaeriksen.eu/", 
             "label": "Live"
             },
             {
