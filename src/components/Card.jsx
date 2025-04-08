@@ -8,10 +8,10 @@ console.log(links)
 return( <>
 <div className="card">
 
-<div className="card-img-container">
-  { iframe ? <iframe src={iframe} id={`card-iframe-${id}`} width="100%" height="100%"  scrolling="no"></iframe> : <img src={image} alt="Example of a fullstack web project completed"/> }
 
-</div>
+  { iframe ? <div className="card-ifram-container"><iframe src={iframe} id={`card-iframe-${id}`} width="100%" height="100%"  scrolling="no"></iframe></div> : <div className="card-img-container"><img src={image} alt="Example of a fullstack web project completed"/></div> }
+
+
 
 <div className="card-body">
     <div className="card-stack">{stack}</div>

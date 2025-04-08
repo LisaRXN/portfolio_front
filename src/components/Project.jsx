@@ -20,10 +20,10 @@ export function Project() {
 
   return(
     <div className="projects">
-    {projects.map((project, index) => (
+    {projects.slice(0,3).map((project) => (
         <Card
             id={project.id}
-            key={`card-${index}`}
+            key={project.id}
             iframe={project.iframe}
             image={project.image}
             stack={project.stack}

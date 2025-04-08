@@ -112,14 +112,14 @@ export function Home() {
         <section className="skills">
           <div className="skills-left">
             <div className="skills-left-container">
-              <Skill title="Langagues Back-end" text="Python PHP JavaScript Node.js" />
-              <Skill title="Databases" text="SQLite MySQL" />
+              <Skill title="Langagues" text="TypeScript JavaScript SQL Python" />
+              <Skill title="Tools" text="Figma Git GitHub" />
             </div>
             <div className="skills-left-container">
-              <Skill title="Langagues Front-end" text="JavaScript CSS SCSS Tailwind" />
+              <Skill title="Frameworks and Libraries" text="Angular React Node.Js Express" />
               <Skill
-                title="Frameworks and Libraries"
-                text="Express Vue.js React"
+                title="Styling & Design"
+                text="CSS SCSS Tailwind"
               />
             </div>
           </div>
