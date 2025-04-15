@@ -42,9 +42,6 @@ export function Header() {
       <nav className="navbar">
 
         <div className="navbar-logo">
-          {/* <span style={{ color: "#646cff" }}>{"< "}</span>
-          <a onClick={() => navigate('home')}>Lisa</a>
-          <span style={{ color: "#646cff" }}>{" />"}</span> */}
           <a onClick={() => navigate('home')}><img className="navbar-logo-img"src="/img/logo-lisa.ico"></img></a>
         </div>
 
