@@ -9,12 +9,10 @@ import { ContactForm } from "../components/ContactForm";
 import { Helmet } from "react-helmet";
 import { Typewriter } from "react-simple-typewriter";
 
-
 export function Home() {
-
-  const [text, setText] = useState(  [
+  const [text, setText] = useState([
     "Focused on building powerful and intuitive websites and applications",
-  ])
+  ]);
 
   //changement du titre
   useEffect(() => {
@@ -85,7 +83,9 @@ export function Home() {
             <img
               src="/img/lisa.png"
               alt="Portrait of Lisa Eriksen, a fullstack web developper"
-            ></img>
+            >
+            </img>
+            <span></span>
           </div>
         </section>
 
@@ -112,15 +112,18 @@ export function Home() {
         <section className="skills">
           <div className="skills-left">
             <div className="skills-left-container">
-              <Skill title="Langagues" text="TypeScript JavaScript SQL Python" />
+              <Skill
+                title="Langagues"
+                text="TypeScript JavaScript SQL Python"
+              />
               <Skill title="Tools" text="Figma Git GitHub" />
             </div>
             <div className="skills-left-container">
-              <Skill title="Frameworks and Libraries" text="Angular React Node.Js Express" />
               <Skill
-                title="Styling & Design"
-                text="CSS SCSS Tailwind"
+                title="Frameworks and Libraries"
+                text="Angular React Node.Js Express"
               />
+              <Skill title="Styling & Design" text="CSS SCSS Tailwind" />
             </div>
           </div>
           <div className="skills-right">
@@ -151,7 +154,7 @@ export function Home() {
 
         <Title title="contact" all={false} />
 
-        <section className="contact">
+        {/* <section className="contact">
           <div className="contact-left">
             <p className="contact-text">
               I{"'"}m currently looking to join a dynamic team of developers
@@ -165,19 +168,32 @@ export function Home() {
               <div className="contact-card-body">
                 <div>
                   <img src="/img/mail.png" alt="Email icon"></img>{" "}
-                  <a href="mailto:lisa.eriksen@epitech.eu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="mailto:lisa.eriksen@epitech.eu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Email me
                   </a>
                 </div>
                 <div>
                   <img src="/img/linkedin.png" alt="LinkedIn icon"></img>
-                  <a href="https://www.linkedin.com/in/lisa-eriksen-738a6533a/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.linkedin.com/in/lisa-eriksen-738a6533a/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Linkedin
                   </a>
                 </div>
                 <div>
                   <img src="/img/github.png" alt="GitHub icon"></img>{" "}
-                  <a href="https://github.com/LisaRXN" target="_blank" title="Email me" rel="noopener noreferrer">
+                  <a
+                    href="https://github.com/LisaRXN"
+                    target="_blank"
+                    title="Email me"
+                    rel="noopener noreferrer"
+                  >
                     Github
                   </a>
                 </div>
@@ -186,8 +202,56 @@ export function Home() {
               </div>
             </div>
           </div>
-          {/*----------- contact form -----------*/}
           <ContactForm />
+        </section> */}
+
+           <section className="contact">
+          <div className="contact-left">
+            <p className="contact-text">
+              I{"'"}m currently looking to join a dynamic team of developers
+              where I can contribute, learn, and grow. Feel free to reach out if
+              you
+              {"'"}d like to connect!
+            </p>
+          </div>
+          <div className="contact-card">
+              <div className="contact-card-title">Contact me here</div>
+              <div className="contact-card-body">
+                <div>
+                  <img src="/img/mail.png" alt="Email icon"></img>{" "}
+                  <a
+                    href="mailto:lisa.eriksen@epitech.eu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Email me
+                  </a>
+                </div>
+                <div>
+                  <img src="/img/linkedin.png" alt="LinkedIn icon"></img>
+                  <a
+                    href="https://www.linkedin.com/in/lisa-eriksen-738a6533a/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Linkedin
+                  </a>
+                </div>
+                <div>
+                  <img src="/img/github.png" alt="GitHub icon"></img>{" "}
+                  <a
+                    href="https://github.com/LisaRXN"
+                    target="_blank"
+                    title="Email me"
+                    rel="noopener noreferrer"
+                  >
+                    Github
+                  </a>
+                </div>
+                <img></img>
+                <p></p>
+              </div>
+            </div>
         </section>
 
         {/*----------- web-container -----------*/}

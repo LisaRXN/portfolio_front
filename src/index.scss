@@ -256,17 +256,29 @@ $hover-color: #ddd;
 
     &-right{
       @include flex-center($justify:right);
+      position:relative;
         width:50%;
         height:100%;
         padding:0 50px;
 
 
         img {
+          z-index:10;
+          position:relative;
           overflow: hidden;
           height:100%;     
-          opacity: 0.3;    
+          opacity: 0.7;    
           filter: hue-rotate(90deg);
        
+        }
+        span {
+          z-index:0;
+          position:absolute;
+          bottom:-30px;
+          right:15px;
+          background-color: #646cff;
+          height: 220px;
+          width:220px;
         }
     }
 
@@ -292,6 +304,35 @@ $hover-color: #ddd;
     &-btn:hover{
         border:0.5px solid $yellow;
         background-color: rgba($yellow, 0.2); // 80% opacity
+    }
+
+    @media screen and (max-width: 1100px) {
+      .banner{
+        &-right{
+          span{
+            height: 150px;
+            width:150px;
+
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .banner{
+        &-right{
+
+          img{
+            transform: translateX(-20px);
+          }
+          span{
+            bottom:0px;
+            right:0px;
+            height: 200px;
+            width:200px;
+
+          }
+        }
+      }
     }
 }
 
@@ -866,10 +907,13 @@ $hover-color: #ddd;
 //----------------------------------------------------------//
 //------------------------  Contact -------------------------//
 //----------------------------------------------------------//
+
 .contact{
 
   @include flex-center($align:start, $justify:space-between);
   padding:25px 50px;
+
+
 
   &-left{
     width: 50%;

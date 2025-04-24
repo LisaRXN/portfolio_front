@@ -84,9 +84,14 @@ export function ContactForm() {
               value={text}
               required
             ></textarea>
-            <button type="submit" className="contact-btn">
+            {/* <button type="submit" className="contact-btn">
               Send {">>"}
-            </button>
+            </button> */}
+            <a      href="mailto:lisa.eriksen@epitech.eu"
+                    target="_blank"
+                    rel="noopener noreferrer" className="contact-btn">
+              Send {">>"}
+            </a>
             <p className="contact-form-confirmation">{mailsucces ? "Message sent successfully!" : null}</p> 
           </div>
         </form>

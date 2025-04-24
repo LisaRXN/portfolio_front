@@ -9,7 +9,7 @@ return( <>
 <div className="card">
 
 
-  { iframe ? <div className="card-ifram-container"><iframe src={iframe} id={`card-iframe-${id}`} width="100%" height="100%"  scrolling="no"></iframe></div> : <div className="card-img-container"><img src={image} alt="Example of a fullstack web project completed"/></div> }
+  { iframe ? <Link to="/projects" className="card-ifram-container"><iframe src={iframe} id={`card-iframe-${id}`} width="100%" height="100%"  scrolling="no"></iframe></Link> : <Link to="/projects"  className="card-img-container"><img src={image} alt="Example of a fullstack web project completed"/></Link> }
 
 
 
