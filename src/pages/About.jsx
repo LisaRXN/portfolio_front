@@ -106,7 +106,7 @@ export function About() {
             <div className="about-formation-card-description">
               <div className="about-formation-card-date">2024</div>
               <div className="about-formation-card-text">
-                Fullstack Development at the Coding Academy by Epitech,
+                Web and mobile application development (RNCP5) at Epitech,
                 Barcelona Campus, Spain.
               </div>
             </div>
@@ -118,7 +118,7 @@ export function About() {
             </div>
 
             <div className="about-formation-card-description">
-              <div className="about-formation-card-date">2005::2010</div>
+              <div className="about-formation-card-date">2005::2011</div>
               <div className="about-formation-card-text">
                 Master{"'"}s Degree in Physics and Chemistry, University of
                 Paris-Saclay, France.
