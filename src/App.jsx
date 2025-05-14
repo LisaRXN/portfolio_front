@@ -11,6 +11,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import { ScrollToTop } from "./components/ScrollToTop.jsx";
+import { Footer } from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <ScrollToTop />
         <Header />
 
-        <div>
+        <div className="global">
           <Routes>
             <Route path="/home" element={<Navigate to="/" />} />
             <Route path="/" element={<Home />} />
@@ -29,6 +30,9 @@ function App() {
             <Route path="/epitech" element={<Epitech />} />
           </Routes>
         </div>
+
+        <Footer />
+
       </Router>
     </>
   );

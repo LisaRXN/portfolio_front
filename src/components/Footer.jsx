@@ -4,8 +4,8 @@ export function Footer() {
   const navigate = useNavigate();
 
   return (
-    <>
-      <nav className="footer">
+    <footer className="footer">
+      <nav className="footer-container">
         <div className="footer-left">
           <div className="footer-logo">
             <p>
@@ -28,6 +28,6 @@ export function Footer() {
           </a>
         </div>
       </nav>
-    </>
+    </footer>
   );
 }

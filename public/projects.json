@@ -1,5 +1,66 @@
 [
     {
+        "id": "0",
+        "title": "barnabé.",
+        "image": "img/barnabe1.png",
+        "stack": "Angular 19, TypeScript, Tailwind",
+        "description": "A tailored web solution created for Barnabé, a real estate agency located in Paris.",
+        "links": [
+            {
+            "href": "https://www.barnabe-immo.fr/", 
+            "label": "Live"
+            },
+            {
+            "href": "https://www.figma.com/design/13cBNspzHTZz38MKblAeRR/Barnab%C3%A9?node-id=1-2&t=6AwOTcCGskMMlGqH-1", 
+            "label": "Figma"
+            },
+            {
+            "href": "https://github.com/LisaRXN/angular-barnabe", 
+            "label": "GitHub"
+            }
+        ],
+        "slides":[
+            {
+                "src": "/img/barnabe1.png", 
+                "alt": "barnabe"
+                },
+                {
+                "src": "/img/barnabe2.png", 
+                "alt": "barnabe"
+                },
+                {
+                "src": "/img/barnabe3.png", 
+                "alt": "barnabe"
+                },
+                {
+                "src": "/img/barnabe4.png", 
+                "alt": "barnabe"
+                },
+                {
+                "src": "/img/barnabe5.png", 
+                "alt": "barnabe"
+                },
+                {
+                "src": "/img/barnabe6.png", 
+                "alt": "barnabe"
+                },
+                {
+                "src": "/img/barnabe7.png", 
+                "alt": "barnabe"
+                },
+                {
+                "src": "/img/barnabe8.png", 
+                "alt": "barnabe"
+                },
+                {
+                "src": "/img/barnabe9.png", 
+                "alt": "barnabe"
+                }
+
+        ],
+        "text": "Barnabé is a modern and high-performance web application, developed using Angular 19, TypeScript and Tailwind. It allows users to discover the company's services, as well as publish and browse real estate listings in a simple and efficient manner. I designed and developed the entire frontend, creating the mockups, design, and ensuring a responsive and intuitive interface. My goal was to deliver an optimal user experience, focusing on smooth navigation and a modern design, perfectly suited to meet the needs of clients."
+    },
+    {
         "id": "1",
         "title": "diffuZe",
         "image": "img/diffuze1.png",
@@ -58,12 +119,56 @@
                 }
 
         ],
-        "text": "DiffuZe is a modern and high-performance web application, developed using Angular 19, TypeScript and Tailwind. It allows users to discover the company's services, as well as publish and browse real estate listings in a simple and efficient manner. I designed and developed the entire frontend, creating the mockups, design, and ensuring a responsive and intuitive interface. My goal was to deliver an optimal user experience, focusing on smooth navigation and a modern design, perfectly suited to meet the needs of clients."
+        "text": "DiffuZe is a fast and modern web app built with Angular 19, TypeScript, and Tailwind. It lets users explore the company's services and easily post or browse real estate listings. I handled the full frontend, from mockups to design and development, focusing on a responsive and user-friendly interface."
+    },
+    {
+        "id": "2",
+        "title": "taskify",
+        "image": "img/taskify1.png",
+        "stack": "Next.js, Supabase, Tailwind",
+        "description": "A task management web app inspired by Trello.",
+        "links": [
+            {
+            "href": "https://taskify-gilt-three.vercel.app", 
+            "label": "Live"
+            },
+            {
+            "href": "https://github.com/LisaRXN/next.js-trello", 
+            "label": "Github"
+            }
+        ],
+        "slides":[
+            {
+                "src": "/img/taskify1.png", 
+                "alt": "taskify"
+                },
+                {
+                "src": "/img/taskify2.png", 
+                "alt": "taskify"
+                },
+                {
+                "src": "/img/taskify3.png", 
+                "alt": "taskify"
+                },
+                {
+                "src": "/img/taskify4.png", 
+                "alt": "taskify"
+                },
+                {
+                "src": "/img/taskify5.png", 
+                "alt": "taskify"
+                },
+                {
+                "src": "/img/taskify6.png", 
+                "alt": "taskify"
+                }
+        ],
+        "text": "Taskify is a task management web application inspired by Trello, built with Next.js. It allows users to create and organize boards, lists, and cards to efficiently track project progress. Authentication is handled through Clerk, ensuring a secure and seamless user experience. Data is stored and synchronized in real time using Supabase."
     },
     {
         "id": "2",
         "title": "cynthia alarcón",
-        "image": "img/cynthia1.png",
+        "image": "img/taskify1.png",
         "stack": "React, Tailwind",
         "description": "An online portfolio for an creative copywriter",
         "links": [
@@ -146,7 +251,7 @@
         "text": "YOWL is a dynamic web application I developed using Node.js for the backend and React for the frontend. The platform allows users to search for businesses, read and write reviews ans comments, rate companies. With a robust backend handling user authentication, database management, and API integrations, and a responsive, intuitive frontend, YOWL delivers a seamless experience for its community."
     },
     {
-        "id": "2",
+        "id": "3",
         "title": "data analyse",
         "image": "img/data1.png",
         "stack": "TypeScript Angular Tailwind",
@@ -195,7 +300,7 @@
         "text": "Data Analysis Project is a front-end website developed with TypeScript and Angular, designed to showcase a data analysis project. The website dynamically generates interactive charts by fetching and processing CSV files."
     },
     {
-        "id": "3",
+        "id": "4",
         "title": "i-Shop",
         "image": "img/ishop0.png",
         "stack": "PHP CSS Javascript",
@@ -238,6 +343,5 @@
 
         ],
         "text": "IShop is a fully functional e-commerce website that I developed from scratch. The backend, built with PHP and connected to a database, powers essential features like user authentication via email or Google accounts, a dynamic shopping cart, and secure payment processing through Stripe. On the frontend, I design a responsive and intuitive interface, delivering a seamless and enjoyable shopping experience."
-    
     }
 ]

@@ -2,7 +2,6 @@ import "react-vertical-timeline-component/style.min.css";
 import { PageTitle } from "../components/PageTitle";
 import { Title } from "../components/Title";
 import { Timeline } from "../components/Timeline";
-import { Footer } from "../components/Footer";
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Skill } from "../components/Skill";
@@ -133,15 +132,18 @@ export function About() {
         <section className="skills">
           <div className="skills-left">
             <div className="skills-left-container">
-              <Skill title="Langagues Back-end" text="Python PHP Node.js" />
-              <Skill title="Databases" text="SQLite MySQL" />
+              <Skill
+                title="Langagues"
+                text="TypeScript JavaScript SQL Python"
+              />
+              <Skill title="Tools" text="Figma Git GitHub" />
             </div>
             <div className="skills-left-container">
-              <Skill title="Langagues Front-end" text="JavaScript CSS SCSS" />
               <Skill
                 title="Frameworks and Libraries"
-                text="Express Vue.js React"
+                text="Angular React Next.js Node.js Express"
               />
+              <Skill title="Styling & Design" text="Tailwind CSS SCSS" />
             </div>
           </div>
           <div className="skills-right">
@@ -154,7 +156,6 @@ export function About() {
         <Timeline />
       </div>
 
-      <Footer />
     </>
   );
 }

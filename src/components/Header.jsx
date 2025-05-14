@@ -40,6 +40,7 @@ export function Header() {
       </head>
 
       <nav className="navbar">
+        <div className="navbar-container">
 
         <div className="navbar-logo">
           <a onClick={() => navigate('home')}><img className="navbar-logo-img"src="/img/logo-lisa.ico"></img></a>
@@ -97,6 +98,7 @@ export function Header() {
           </a>
           </div>
         )}
+        </div>
       </nav>
     </>
   );

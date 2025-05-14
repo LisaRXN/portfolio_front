@@ -11,7 +11,7 @@ const events = [
   {
     id: 2,
     date: "2024",
-    name:"Student in Web Development",
+    name:"Student in Computer Programming",
     description: "at Epitech, campus of Barcelona, Spain.",
     img: "/img/computer.png",
   },

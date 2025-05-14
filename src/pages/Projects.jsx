@@ -2,7 +2,6 @@ import { Carousel } from "../components/Carousel";
 import { PageTitle } from "../components/PageTitle";
 import { Title } from "../components/Title";
 import { CardProject } from "../components/CardProject";
-import { Footer } from "../components/Footer";
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 
@@ -82,7 +81,6 @@ export function Projects() {
         </div>
       </div>
 
-      <Footer />
     </>
   );
 }

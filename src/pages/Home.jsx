@@ -2,7 +2,6 @@ import { Title } from "../components/Title";
 import { Pong } from "../components/Pong";
 import { PongMobile } from "../components/PongMobile";
 import { Skill } from "../components/Skill";
-import { Footer } from "../components/Footer";
 import { useEffect, useState } from "react";
 import { Project } from "../components/Project";
 import { ContactForm } from "../components/ContactForm";
@@ -68,7 +67,7 @@ export function Home() {
           <div className="banner-left">
             <p className="banner-title">
               Hi, I{"'"}m Lisa, a passionate{" "}
-              <span className="gradient-text">fullstack web</span> developer
+              <span className="gradient-text">front-end</span> developer
             </p>
 
             <div className="banner-text">
@@ -83,8 +82,7 @@ export function Home() {
             <img
               src="/img/lisa.png"
               alt="Portrait of Lisa Eriksen, a fullstack web developper"
-            >
-            </img>
+            ></img>
             <span></span>
           </div>
         </section>
@@ -121,9 +119,9 @@ export function Home() {
             <div className="skills-left-container">
               <Skill
                 title="Frameworks and Libraries"
-                text="Angular React Node.Js Express"
+                text="Angular React Next.js Node.js Express"
               />
-              <Skill title="Styling & Design" text="CSS SCSS Tailwind" />
+              <Skill title="Styling & Design" text="Tailwind CSS SCSS" />
             </div>
           </div>
           <div className="skills-right">
@@ -147,6 +145,17 @@ export function Home() {
             innovative projects where every challenge is an opportunity to
             create something meaningful.
           </p>
+          <div className="about-right">
+            <a
+              className="page-about-btn"
+              href="/CV_ERIKSEN.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View my CV
+            </a>
+          </div>
+
           <img src=""></img>
         </section>
 
@@ -205,7 +214,7 @@ export function Home() {
           <ContactForm />
         </section> */}
 
-           <section className="contact">
+        <section className="contact">
           <div className="contact-left">
             <p className="contact-text">
               I{"'"}m currently looking to join a dynamic team of developers
@@ -215,50 +224,48 @@ export function Home() {
             </p>
           </div>
           <div className="contact-card">
-              <div className="contact-card-title">Contact me here</div>
-              <div className="contact-card-body">
-                <div>
-                  <img src="/img/mail.png" alt="Email icon"></img>{" "}
-                  <a
-                    href="mailto:lisa.eriksen@epitech.eu"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Email me
-                  </a>
-                </div>
-                <div>
-                  <img src="/img/linkedin.png" alt="LinkedIn icon"></img>
-                  <a
-                    href="https://www.linkedin.com/in/lisa-eriksen-738a6533a/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Linkedin
-                  </a>
-                </div>
-                <div>
-                  <img src="/img/github.png" alt="GitHub icon"></img>{" "}
-                  <a
-                    href="https://github.com/LisaRXN"
-                    target="_blank"
-                    title="Email me"
-                    rel="noopener noreferrer"
-                  >
-                    Github
-                  </a>
-                </div>
-                <img></img>
-                <p></p>
+            <div className="contact-card-title">Contact me here</div>
+            <div className="contact-card-body">
+              <div>
+                <img src="/img/mail.png" alt="Email icon"></img>{" "}
+                <a
+                  href="mailto:lisa.eriksen@epitech.eu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Email me
+                </a>
               </div>
+              <div>
+                <img src="/img/linkedin.png" alt="LinkedIn icon"></img>
+                <a
+                  href="https://www.linkedin.com/in/lisa-eriksen-738a6533a/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Linkedin
+                </a>
+              </div>
+              <div>
+                <img src="/img/github.png" alt="GitHub icon"></img>{" "}
+                <a
+                  href="https://github.com/LisaRXN"
+                  target="_blank"
+                  title="Email me"
+                  rel="noopener noreferrer"
+                >
+                  Github
+                </a>
+              </div>
+              <img></img>
+              <p></p>
             </div>
+          </div>
         </section>
 
         {/*----------- web-container -----------*/}
       </div>
       {/*------------------------------------*/}
-
-      <Footer />
     </>
   );
 }
