@@ -307,6 +307,7 @@ $hover-color: #ddd;
         font-weight: 300;
         color:lightgray;
         padding:20px 0;
+        min-height:120px;
         margin-bottom: 30px;
     }
 
@@ -396,7 +397,7 @@ $hover-color: #ddd;
       }
 
       &-text{
-        margin-bottom: 0px
+        margin-bottom: 0px;
       }
   }
 }
@@ -409,6 +410,11 @@ $hover-color: #ddd;
     &-right{
       height:400px;
   }
+  &-text{
+    min-height:80px;
+    padding:20px 5px 0 5px;
+ } 
+
     img{
       height:400px;
       width:auto;
@@ -429,9 +435,8 @@ $hover-color: #ddd;
         height:auto;
     }
     &-text{
-      height: 100px;
-      padding:10px 0;
-
+      min-height:80px;
+      padding:20px 0 0 0;
    } 
    &-btn{
     margin: 50px 0 0 0 ;
@@ -445,6 +450,15 @@ $hover-color: #ddd;
     }
   }
 
+  @media screen and (min-width: 600px) and (max-width: 1000px) {
+    .banner {
+
+      &-text{
+        min-height:140px;
+        padding:10px 0 0;
+     } 
+    }
+  }
 
 //----------------------------------------------------------//
 //------------------------ Quote ---------------------------//
