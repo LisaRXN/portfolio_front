@@ -10,7 +10,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 export function Home() {
   const [text, setText] = useState([
-    "Focused on building powerful and intuitive websites and applications",
+    "Combining UX/UI design and efficient coding to build intuitive applications.",
   ]);
 
   //changement du titre
