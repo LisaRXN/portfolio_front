@@ -1,347 +1,342 @@
 [
-    {
-        "id": "0",
-        "title": "barnabé.",
-        "image": "img/barnabe1.png",
-        "stack": "Angular 19, TypeScript, Tailwind",
-        "description": "A tailored web solution created for Barnabé, a real estate agency located in Paris.",
-        "links": [
-            {
-            "href": "https://www.barnabe-immo.fr/", 
-            "label": "Live"
-            },
-            {
-            "href": "https://www.figma.com/design/17SfZPXM7dY9Udcm57voxG/Untitled?node-id=2-7&t=NpDMA0W5gpbxgqjq-1", 
-            "label": "Figma"
-            },
-            {
-            "href": "https://github.com/LisaRXN/angular-barnabe", 
-            "label": "GitHub"
-            }
-        ],
-        "slides":[
-            {
-                "src": "/img/barnabe1.png", 
-                "alt": "barnabe"
-                },
-                {
-                "src": "/img/barnabe2.png", 
-                "alt": "barnabe"
-                },
-                {
-                "src": "/img/barnabe3.png", 
-                "alt": "barnabe"
-                },
-                {
-                "src": "/img/barnabe4.png", 
-                "alt": "barnabe"
-                },
-                {
-                "src": "/img/barnabe5.png", 
-                "alt": "barnabe"
-                },
-                {
-                "src": "/img/barnabe6.png", 
-                "alt": "barnabe"
-                },
-                {
-                "src": "/img/barnabe7.png", 
-                "alt": "barnabe"
-                },
-                {
-                "src": "/img/barnabe8.png", 
-                "alt": "barnabe"
-                },
-                {
-                "src": "/img/barnabe9.png", 
-                "alt": "barnabe"
-                }
-
-        ],
-        "text": "Barnabé is a modern and high-performance web application, developed using Angular 19, TypeScript and Tailwind. It allows users to discover the company's services, as well as publish and browse real estate listings in a simple and efficient manner. I designed and developed the entire frontend, creating the mockups, design, and ensuring a responsive and intuitive interface. My goal was to deliver an optimal user experience, focusing on smooth navigation and a modern design, perfectly suited to meet the needs of clients."
-    },
-    {
-        "id": "1",
-        "title": "diffuZe",
-        "image": "img/diffuze1.png",
-        "stack": "Angular 19, TypeScript, Tailwind",
-        "description": "A tailored web solution created for DiffuZe, a real estate agency located in Paris.",
-        "links": [
-            {
-            "href": "https://www.diffuze.fr/", 
-            "label": "Live"
-            },
-            {
-            "href": "https://www.figma.com/design/UQJb11Aw9GuXM8awEgSbbX/DiffuZe?node-id=44-794&p=f&t=OYrGdHt33A0sJuFB-0", 
-            "label": "Figma"
-            },
-            {
-            "href": "https://github.com/LisaRXN/angular-diffuze", 
-            "label": "GitHub"
-            }
-        ],
-        "slides":[
-            {
-                "src": "/img/diffuze1.png", 
-                "alt": "DiffuZe"
-                },
-                {
-                "src": "/img/diffuze2.png", 
-                "alt": "DiffuZe"
-                },
-                {
-                "src": "/img/diffuze3.png", 
-                "alt": "DiffuZe"
-                },
-                {
-                "src": "/img/diffuze4.png", 
-                "alt": "DiffuZe"
-                },
-                {
-                "src": "/img/diffuze5.png", 
-                "alt": "DiffuZe"
-                },
-                {
-                "src": "/img/diffuze6.png", 
-                "alt": "DiffuZe"
-                },
-                {
-                "src": "/img/diffuze7.png", 
-                "alt": "DiffuZe"
-                },
-                {
-                "src": "/img/diffuze8.png", 
-                "alt": "DiffuZe"
-                },
-                {
-                "src": "/img/diffuze9.png", 
-                "alt": "DiffuZe"
-                }
-
-        ],
-        "text": "DiffuZe is a fast and modern web app built with Angular 19, TypeScript, and Tailwind. It lets users explore the company's services and easily post or browse real estate listings. I handled the full frontend, from mockups to design and development, focusing on a responsive and user-friendly interface."
-    },
-    {
-        "id": "2",
-        "title": "taskify",
-        "image": "img/taskify1.png",
-        "stack": "Next.js, Supabase, Tailwind",
-        "description": "A task management web app inspired by Trello.",
-        "links": [
-            {
-            "href": "https://taskify-gilt-three.vercel.app", 
-            "label": "Live"
-            },
-            {
-            "href": "https://github.com/LisaRXN/next.js-trello", 
-            "label": "Github"
-            }
-        ],
-        "slides":[
-            {
-                "src": "/img/taskify1.png", 
-                "alt": "taskify"
-                },
-                {
-                "src": "/img/taskify2.png", 
-                "alt": "taskify"
-                },
-                {
-                "src": "/img/taskify3.png", 
-                "alt": "taskify"
-                },
-                {
-                "src": "/img/taskify4.png", 
-                "alt": "taskify"
-                },
-                {
-                "src": "/img/taskify5.png", 
-                "alt": "taskify"
-                },
-                {
-                "src": "/img/taskify6.png", 
-                "alt": "taskify"
-                }
-        ],
-        "text": "Taskify is a task management web application inspired by Trello, built with Next.js. It allows users to create and organize boards, lists, and cards to efficiently track project progress. Authentication is handled through Clerk, ensuring a secure and seamless user experience. Data is stored and synchronized in real time using Supabase."
-    },
-    {
-        "id": "2",
-        "title": "cynthia alarcón",
-        "image": "img/taskify1.png",
-        "stack": "React, Tailwind",
-        "description": "An online portfolio for an creative copywriter",
-        "links": [
-            {
-            "href": "https://cynthia-alarcon-portfolio.vercel.app/", 
-            "label": "Live"
-            },
-            {
-            "href": "https://github.com/LisaRXN/cynthia-portfolio", 
-            "label": "Github"
-            }
-        ],
-        "slides":[
-            {
-                "src": "/img/cynthia1.png", 
-                "alt": "Cynthia Alarcón Portfolio"
-                },
-                {
-                "src": "/img/cynthia2.png", 
-                "alt": "Cynthia Alarcón Portfolio"
-                },
-                {
-                "src": "/img/cynthia3.png", 
-                "alt": "Cynthia Alarcón Portfolio"
-                },
-                {
-                "src": "/img/cynthia4.png", 
-                "alt": "Cynthia Alarcón Portfolio"
-                }
-        ],
-        "text": "I designed and developed an online portfolio for an creative copywriter, using React and Tailwind. The goal was to create a modern and professional interface that highlights her work while providing a smooth and intuitive user experience. I handled the entire UI/UX design, ensuring the site reflects her visual identity and creativity. The frontend was fully developed to guarantee fast and responsive navigation, with a focus on elegantly showcasing her projects and achievements."
-    },
-    {
-        "id": "2",
-        "title": "yowl",
-        "image": "img/yowl0.png",
-        "stack": "Node.js MySQL React Tailwind",
-        "description": "A Web Application for Reviews, Ratings, Comments and Community Engagement",
-        "links": [
-            {
-            "href": "https://yowl-front-rho.vercel.app/", 
-            "label": "Live"
-            },
-            {
-            "href": "https://github.com/LisaRXN/yowl_front", 
-            "label": "Github"
-            }
-        ],
-        "slides":[
-            {
-                "src": "/img/yowl0.png", 
-                "alt": ""
-                },
-                {
-                "src": "/img/yowl1.png", 
-                "alt": "Github"
-                },
-                {
-                "src": "/img/yowl2.png", 
-                "alt": "Github"
-                },
-                {
-                "src": "/img/yowl3.png", 
-                "alt": "Github"
-                },
-                {
-                "src": "/img/yowl4.png", 
-                "alt": "Github"
-                },
-                {
-                "src": "/img/yowl5.png", 
-                "alt": "Github"
-                },
-                {
-                "src": "/img/yowl6.png", 
-                "alt": "Github"
-                }
-
-        ],
-        "text": "YOWL is a dynamic web application I developed using Node.js for the backend and React for the frontend. The platform allows users to search for businesses, read and write reviews ans comments, rate companies. With a robust backend handling user authentication, database management, and API integrations, and a responsive, intuitive frontend, YOWL delivers a seamless experience for its community."
-    },
-    {
-        "id": "3",
-        "title": "data analyse",
-        "image": "img/data1.png",
-        "stack": "TypeScript Angular Tailwind",
-        "description": "A website to showcase a data analysis project with interactive charts",
-        "links": [
-            {
-            "href": "https://bigdata-angular.vercel.app//", 
-            "label": "Live"
-            },
-            {
-            "href": "https://github.com/LisaRXN/bigdata_angular", 
-            "label": "Github"
-            }
-        ],
-        "slides":[
-            {
-                "src": "/img/data1.png", 
-                "alt": "data analyse"
-                },
-                {
-                "src": "/img/data2.png", 
-                "alt": "data analyse"
-                },
-                {
-                "src": "/img/data3.png", 
-                "alt": "data analyse"
-                },
-                {
-                "src": "/img/data4.png", 
-                "alt": "data analyse"
-                },
-                {
-                "src": "/img/data5.png", 
-                "alt": "data analyse"
-                },
-                {
-                "src": "/img/data6.png", 
-                "alt": "data analyse"
-                },
-                {
-                "src": "/img/data7.png", 
-                "alt": "data analyse"
-                }
-
-        ],
-        "text": "Data Analysis Project is a front-end website developed with TypeScript and Angular, designed to showcase a data analysis project. The website dynamically generates interactive charts by fetching and processing CSV files."
-    },
-    {
-        "id": "4",
-        "title": "i-Shop",
-        "image": "img/ishop0.png",
-        "stack": "PHP CSS Javascript",
-        "description": "Fullstack developpment of an e-commerce",
-        "links": [
-            {
-            "href": "https://lisaeriksen.eu/", 
-            "label": "Live"
-            },
-            {
-            "href": "https://github.com/LisaRXN/Ishop", 
-            "label": "Github"
-            }
-        ],
-        "slides":[
-            {
-                "src": "/img/ishop0.png", 
-                "alt": ""
-                },
-                {
-                "src": "/img/ishop1.png", 
-                "alt": "Github"
-                },
-                {
-                "src": "/img/ishop2.png", 
-                "alt": "Github"
-                },
-                {
-                "src": "/img/ishop3.png", 
-                "alt": "Github"
-                },
-                {
-                "src": "/img/ishop4.png", 
-                "alt": "Github"
-                },
-                {
-                "src": "/img/ishop5.png", 
-                "alt": "Github"
-                }
-
-        ],
-        "text": "IShop is a fully functional e-commerce website that I developed from scratch. The backend, built with PHP and connected to a database, powers essential features like user authentication via email or Google accounts, a dynamic shopping cart, and secure payment processing through Stripe. On the frontend, I design a responsive and intuitive interface, delivering a seamless and enjoyable shopping experience."
-    }
+  {
+    "id": "0",
+    "title": "barnabé.",
+    "image": "img/barnabe1.png",
+    "stack": "Angular 19, TypeScript, Tailwind",
+    "description": "A tailored web solution created for Barnabé, a real estate agency located in Paris.",
+    "links": [
+      {
+        "href": "https://www.barnabe-immo.fr/",
+        "label": "Live"
+      },
+      {
+        "href": "https://www.figma.com/design/17SfZPXM7dY9Udcm57voxG/Untitled?node-id=2-7&t=NpDMA0W5gpbxgqjq-1",
+        "label": "Figma"
+      },
+      {
+        "href": "https://github.com/LisaRXN/angular-barnabe",
+        "label": "GitHub"
+      }
+    ],
+    "slides": [
+      {
+        "src": "/img/barnabe1.png",
+        "alt": "barnabe"
+      },
+      {
+        "src": "/img/barnabe2.png",
+        "alt": "barnabe"
+      },
+      {
+        "src": "/img/barnabe3.png",
+        "alt": "barnabe"
+      },
+      {
+        "src": "/img/barnabe4.png",
+        "alt": "barnabe"
+      },
+      {
+        "src": "/img/barnabe5.png",
+        "alt": "barnabe"
+      },
+      {
+        "src": "/img/barnabe6.png",
+        "alt": "barnabe"
+      },
+      {
+        "src": "/img/barnabe7.png",
+        "alt": "barnabe"
+      },
+      {
+        "src": "/img/barnabe8.png",
+        "alt": "barnabe"
+      },
+      {
+        "src": "/img/barnabe9.png",
+        "alt": "barnabe"
+      }
+    ],
+    "text": "Barnabé is a modern and high-performance web application, developed using Angular 19, TypeScript and Tailwind. It allows users to discover the company's services, as well as publish and browse real estate listings in a simple and efficient manner. I designed and developed the entire frontend, creating the mockups, design, and ensuring a responsive and intuitive interface. My goal was to deliver an optimal user experience, focusing on smooth navigation and a modern design, perfectly suited to meet the needs of clients."
+  },
+  {
+    "id": "2",
+    "title": "la escuelita app",
+    "image": "img/app.png",
+    "stack": "Next.js, TypeScript, Tailwind, Supabase, Clerk",
+    "description": "A volunteer and activity management platform built for La Escuelita, an educational NGO based in Lima.",
+    "links": [
+      {
+        "href": "https://demo.laescuelita-app.org/",
+        "label": "Live"
+      },
+      {
+        "href": "https://github.com/LisaRXN/la-escuelita-app",
+        "label": "GitHub"
+      }
+    ],
+    "slides": [
+      {
+        "src": "/img/app.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/app1.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/app2.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/app3.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/app4.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/app5.png",
+        "alt": "DiffuZe"
+      }
+    ],
+    "text": "La Escuelita App is a custom web platform designed to help the NGO coordinate its educational activities and manage volunteer registrations. Built with Next.js, Supabase, and Clerk, it includes features such as secure authentication, a dynamic calendar, session capacity limits, and admin dashboards. I developed the full frontend and API integration, focusing on clarity, autonomy, and sustainability for the team on-site."
+},
+  {
+    "id": "3",
+    "title": "diffuZe",
+    "image": "img/diffuze1.png",
+    "stack": "Angular 19, TypeScript, Tailwind",
+    "description": "A tailored web solution created for DiffuZe, a real estate agency located in Paris.",
+    "links": [
+      {
+        "href": "https://www.diffuze.fr/",
+        "label": "Live"
+      },
+      {
+        "href": "https://www.figma.com/design/UQJb11Aw9GuXM8awEgSbbX/DiffuZe?node-id=44-794&p=f&t=OYrGdHt33A0sJuFB-0",
+        "label": "Figma"
+      },
+      {
+        "href": "https://github.com/LisaRXN/angular-diffuze",
+        "label": "GitHub"
+      }
+    ],
+    "slides": [
+      {
+        "src": "/img/diffuze1.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/diffuze2.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/diffuze3.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/diffuze4.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/diffuze5.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/diffuze6.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/diffuze7.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/diffuze8.png",
+        "alt": "DiffuZe"
+      },
+      {
+        "src": "/img/diffuze9.png",
+        "alt": "DiffuZe"
+      }
+    ],
+    "text": "DiffuZe is a fast and modern web app built with Angular 19, TypeScript, and Tailwind. It lets users explore the company's services and easily post or browse real estate listings. I handled the full frontend, from mockups to design and development, focusing on a responsive and user-friendly interface."
+  },
+  {
+    "id": "4",
+    "title": "taskify",
+    "image": "img/taskify1.png",
+    "stack": "Next.js, Supabase, Tailwind",
+    "description": "A task management web app inspired by Trello.",
+    "links": [
+      {
+        "href": "https://taskify-gilt-three.vercel.app",
+        "label": "Live"
+      },
+      {
+        "href": "https://github.com/LisaRXN/next.js-trello",
+        "label": "Github"
+      }
+    ],
+    "slides": [
+      {
+        "src": "/img/taskify1.png",
+        "alt": "taskify"
+      },
+      {
+        "src": "/img/taskify2.png",
+        "alt": "taskify"
+      },
+      {
+        "src": "/img/taskify3.png",
+        "alt": "taskify"
+      },
+      {
+        "src": "/img/taskify4.png",
+        "alt": "taskify"
+      },
+      {
+        "src": "/img/taskify5.png",
+        "alt": "taskify"
+      },
+      {
+        "src": "/img/taskify6.png",
+        "alt": "taskify"
+      }
+    ],
+    "text": "Taskify is a task management web application inspired by Trello, built with Next.js. It allows users to create and organize boards, lists, and cards to efficiently track project progress. Authentication is handled through Clerk, ensuring a secure and seamless user experience. Data is stored and synchronized in real time using Supabase."
+  },
+  {
+    "id": "5",
+    "title": "cynthia alarcón",
+    "image": "img/cynthia1.png",
+    "stack": "React, Tailwind",
+    "description": "An online portfolio for an creative copywriter",
+    "links": [
+      {
+        "href": "https://cynthia-alarcon-portfolio.vercel.app/",
+        "label": "Live"
+      },
+      {
+        "href": "https://github.com/LisaRXN/cynthia-portfolio",
+        "label": "Github"
+      }
+    ],
+    "slides": [
+      {
+        "src": "/img/cynthia1.png",
+        "alt": "Cynthia Alarcón Portfolio"
+      },
+      {
+        "src": "/img/cynthia2.png",
+        "alt": "Cynthia Alarcón Portfolio"
+      },
+      {
+        "src": "/img/cynthia3.png",
+        "alt": "Cynthia Alarcón Portfolio"
+      },
+      {
+        "src": "/img/cynthia4.png",
+        "alt": "Cynthia Alarcón Portfolio"
+      }
+    ],
+    "text": "I designed and developed an online portfolio for an creative copywriter, using React and Tailwind. The goal was to create a modern and professional interface that highlights her work while providing a smooth and intuitive user experience. I handled the entire UI/UX design, ensuring the site reflects her visual identity and creativity. The frontend was fully developed to guarantee fast and responsive navigation, with a focus on elegantly showcasing her projects and achievements."
+  },
+  {
+    "id": "6",
+    "title": "yowl",
+    "image": "img/yowl0.png",
+    "stack": "Node.js MySQL React Tailwind",
+    "description": "A Web Application for Reviews, Ratings, Comments and Community Engagement",
+    "links": [
+      {
+        "href": "https://yowl-front-rho.vercel.app/",
+        "label": "Live"
+      },
+      {
+        "href": "https://github.com/LisaRXN/yowl_front",
+        "label": "Github"
+      }
+    ],
+    "slides": [
+      {
+        "src": "/img/yowl0.png",
+        "alt": ""
+      },
+      {
+        "src": "/img/yowl1.png",
+        "alt": "Github"
+      },
+      {
+        "src": "/img/yowl2.png",
+        "alt": "Github"
+      },
+      {
+        "src": "/img/yowl3.png",
+        "alt": "Github"
+      },
+      {
+        "src": "/img/yowl4.png",
+        "alt": "Github"
+      },
+      {
+        "src": "/img/yowl5.png",
+        "alt": "Github"
+      },
+      {
+        "src": "/img/yowl6.png",
+        "alt": "Github"
+      }
+    ],
+    "text": "YOWL is a dynamic web application I developed using Node.js for the backend and React for the frontend. The platform allows users to search for businesses, read and write reviews ans comments, rate companies. With a robust backend handling user authentication, database management, and API integrations, and a responsive, intuitive frontend, YOWL delivers a seamless experience for its community."
+  },
+  {
+    "id": "7",
+    "title": "data analyse",
+    "image": "img/data1.png",
+    "stack": "TypeScript Angular Tailwind",
+    "description": "A website to showcase a data analysis project with interactive charts",
+    "links": [
+      {
+        "href": "https://bigdata-angular.vercel.app//",
+        "label": "Live"
+      },
+      {
+        "href": "https://github.com/LisaRXN/bigdata_angular",
+        "label": "Github"
+      }
+    ],
+    "slides": [
+      {
+        "src": "/img/data1.png",
+        "alt": "data analyse"
+      },
+      {
+        "src": "/img/data2.png",
+        "alt": "data analyse"
+      },
+      {
+        "src": "/img/data3.png",
+        "alt": "data analyse"
+      },
+      {
+        "src": "/img/data4.png",
+        "alt": "data analyse"
+      },
+      {
+        "src": "/img/data5.png",
+        "alt": "data analyse"
+      },
+      {
+        "src": "/img/data6.png",
+        "alt": "data analyse"
+      },
+      {
+        "src": "/img/data7.png",
+        "alt": "data analyse"
+      }
+    ],
+    "text": "Data Analysis Project is a front-end website developed with TypeScript and Angular, designed to showcase a data analysis project. The website dynamically generates interactive charts by fetching and processing CSV files."
+  }
 ]
