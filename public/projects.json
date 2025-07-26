@@ -208,6 +208,27 @@
     "text": "Taskify is a task management web application inspired by Trello, built with Next.js. It allows users to create and organize boards, lists, and cards to efficiently track project progress. Authentication is handled through Clerk, ensuring a secure and seamless user experience. Data is stored and synchronized in real time using Supabase."
   },
   {
+    "id": "6",
+    "title": "Taskflow",
+    "image": "img/taskflow.png",
+    "stack": "React TypeScript Tailwind Jest",
+    "description": "A Kanban-style task management app with drag-and-drop, task adding, deleting, and state persistence",
+    "links": [
+      {
+        "href": "https://github.com/LisaRXN/react-taskflow",
+        "label": "Github"
+      }
+    ],
+    "slides": [
+      {
+        "src": "/img/taskflow.png",
+        "alt": "Taskflow Kanban board screenshot"
+      }
+    ],
+    "text": "Taskflow is a React and TypeScript application designed for efficient task management using a Kanban board interface. It features drag-and-drop functionality powered by @hello-pangea/dnd, enabling users to add, move, and delete tasks across columns such as 'To Do', 'In Progress', and 'Done'. The app persists state locally using localStorage, ensuring your tasks stay saved between sessions. Styled with Tailwind CSS for a clean and responsive UI, Taskflow helps users stay organized and productive."
+  },
+
+  {
     "id": "5",
     "title": "cynthia alarcón",
     "image": "img/cynthia1.png",
