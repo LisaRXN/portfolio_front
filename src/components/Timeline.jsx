@@ -1,11 +1,26 @@
 import { useEffect, useState } from "react";
 
+
 const events = [
   {
     id: 1,
-    date: "2025",
+    date: "September 2025",
+    name:"Full Stack Developer  ",
+    description: "at Mercanza, Madrid, Spain. (React DevExtrem .NET C#)",
+    img: "/img/computer.png",
+  },
+  {
+    id: 1,
+    date: "September 2025",
+    name:"IT Teacher - Web & Software Development (DAM/DAW) ",
+    description: "at The Power, Madrid, Spain.",
+    img: "/img/computer.png",
+  },
+  {
+    id: 1,
+    date: "January 2025",
     name:"Frontend Developer  ",
-    description: "at Barnabé, Paris, France.",
+    description: "at Barnabé, Paris, France. (Angular 17 & 18)",
     img: "/img/computer.png",
   },
   {
@@ -31,7 +46,7 @@ const events = [
   },
   {
     id: 4,
-    date: "2011::2025",
+    date: "2011::2024",
     name:"Physics Teacher ",
     description:
       "at the French International Schools of Caracas (Venezuela), Lima (Peru), and high schools in Paris (France) ",

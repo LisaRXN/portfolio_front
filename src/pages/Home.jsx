@@ -4,12 +4,12 @@ import { PongMobile } from "../components/PongMobile";
 import { Skill } from "../components/Skill";
 import { useEffect, useState } from "react";
 import { Project } from "../components/Project";
-import { ContactForm } from "../components/ContactForm";
+// import { ContactForm } from "../components/ContactForm";
 import { Helmet } from "react-helmet";
 import { Typewriter } from "react-simple-typewriter";
 
 export function Home() {
-  const [text, setText] = useState([
+  const [text] = useState([
     "Combining UX/UI design and efficient coding to build intuitive applications.",
   ]);
 
@@ -67,7 +67,7 @@ export function Home() {
           <div className="banner-left">
             <p className="banner-title">
               Hi, I{"'"}m Lisa, a passionate{" "}
-              <span className="gradient-text">front-end</span> developer
+              <span className="gradient-text">Full Stack</span> developer
             </p>
 
             <div className="banner-text">
@@ -112,14 +112,14 @@ export function Home() {
             <div className="skills-left-container">
               <Skill
                 title="Langagues"
-                text="TypeScript JavaScript SQL Python"
+                text="TypeScript JavaScript C# SQL"
               />
               <Skill title="Tools" text="Figma Git GitHub" />
             </div>
             <div className="skills-left-container">
               <Skill
                 title="Frameworks and Libraries"
-                text="Angular React Next.js Node.js Express"
+                text="Angular React Next.js Node.js Express .NET"
               />
               <Skill title="Styling & Design" text="Tailwind CSS SCSS" />
             </div>

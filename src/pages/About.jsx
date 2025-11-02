@@ -117,7 +117,7 @@ export function About() {
             </div>
 
             <div className="about-formation-card-description">
-              <div className="about-formation-card-date">2005::2011</div>
+              <div className="about-formation-card-date">2011</div>
               <div className="about-formation-card-text">
                 Master{"'"}s Degree in Physics and Chemistry, University of
                 Paris-Saclay, France.
@@ -132,16 +132,16 @@ export function About() {
         <section className="skills">
           <div className="skills-left">
             <div className="skills-left-container">
-              <Skill
+            <Skill
                 title="Langagues"
-                text="TypeScript JavaScript SQL Python"
+                text="TypeScript JavaScript C# SQL"
               />
               <Skill title="Tools" text="Figma Git GitHub" />
             </div>
             <div className="skills-left-container">
-              <Skill
+            <Skill
                 title="Frameworks and Libraries"
-                text="Angular React Next.js Node.js Express"
+                text="Angular React Next.js Node.js Express .NET"
               />
               <Skill title="Styling & Design" text="Tailwind CSS SCSS" />
             </div>
