@@ -60,6 +60,50 @@
     "text": "Barnabé is a modern and high-performance web application, developed using Angular 19, TypeScript and Tailwind. It allows users to discover the company's services, as well as publish and browse real estate listings in a simple and efficient manner. I designed and developed the entire frontend, creating the mockups, design, and ensuring a responsive and intuitive interface. My goal was to deliver an optimal user experience, focusing on smooth navigation and a modern design, perfectly suited to meet the needs of clients."
   },
   {
+    "id": "1",
+    "title": "BatiCloud",
+    "image": "img/baticloud.png",
+    "stack": "React, TypeScript, Tailwind, Zod, Zustand, TanStack Query",
+    "description": "A web application for artisans to manage interventions, teams, quotes, and invoices from a centralized dashboard.",
+    "links": [
+      {
+        "href": "https://baticloud-demo.vercel.app/", 
+        "label": "Live"
+      },
+      {
+        "href": "https://github.com/LisaRXN/baticloud-demo",
+        "label": "GitHub"
+      }
+    ],
+    "slides": [
+      {
+        "src": "/img/baticloud.png",
+        "alt": "BatiCloud Login"
+      },
+      {
+        "src": "/img/baticloud1.png",
+        "alt": "BatiCloud Dashboard"
+      },
+      {
+        "src": "/img/baticloud2.png",
+        "alt": " Interventions view"
+      },
+      {
+        "src": "/img/baticloud3.png",
+        "alt": "Quotes & Products"
+      },
+      {
+        "src": "/img/baticloud4.png",
+        "alt": "Reusable Components"
+      },
+      {
+        "src": "/img/baticloud5.png",
+        "alt": "Quotes View"
+      }
+    ],
+    "text": "BatiCloud is a modern platform built for artisans to centralize their operations. It allows management of interventions, teams, quotes, and invoices, featuring a clean architecture with Ports & Adapters and reusable UI components. I implemented the full frontend with Next.js, integrated in-memory data mocks, and focused on code clarity, maintainability, and scalability."
+  },  
+  {
     "id": "2",
     "title": "la escuelita app",
     "image": "img/app.png",
