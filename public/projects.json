@@ -61,18 +61,22 @@
   },
   {
     "id": "1",
-    "title": "BatiCloud",
+    "title": "baticloud",
     "image": "img/baticloud.png",
     "stack": "React, TypeScript, Tailwind, Zod, Zustand, TanStack Query",
     "description": "A web application for artisans to manage interventions, teams, quotes, and invoices from a centralized dashboard.",
     "links": [
       {
-        "href": "https://baticloud-demo.vercel.app/", 
+        "href": "https://baticloud-demo.vercel.app/",
         "label": "Live"
       },
       {
         "href": "https://github.com/LisaRXN/baticloud-demo",
         "label": "GitHub"
+      },
+      {
+        "href": "https://www.figma.com/design/koN1OIkydEy87ZhcPqGPG6/Baticloud---Wireframes?node-id=0-1&t=n1BBGZMJpgrROZCN-1",
+        "label": "Figma"
       }
     ],
     "slides": [
@@ -101,8 +105,8 @@
         "alt": "Quotes View"
       }
     ],
-    "text": "BatiCloud is a modern platform built for artisans to centralize their operations. It allows management of interventions, teams, quotes, and invoices, featuring a clean architecture with Ports & Adapters and reusable UI components. I implemented the full frontend with Next.js, integrated in-memory data mocks, and focused on code clarity, maintainability, and scalability."
-  },  
+    "text": "BatiCloud is a modern platform built for artisans to centralize their operations. It allows management of interventions, teams, quotes, and invoices, featuring a clean architecture with Ports & Adapters and reusable UI components. I implemented the full frontend with React, focused on code clarity, maintainability, and scalability. Here is the demo with integrated in-memory data mocks."
+  },
   {
     "id": "2",
     "title": "la escuelita app",
@@ -111,10 +115,6 @@
     "description": "A volunteer and activity management platform built for La Escuelita, an educational NGO based in Lima.",
     "links": [
       {
-        "href": "https://demo.laescuelita-app.org/",
-        "label": "Live"
-      },
-      {
         "href": "https://github.com/LisaRXN/demo-escuelita-app",
         "label": "GitHub"
       }
@@ -122,31 +122,31 @@
     "slides": [
       {
         "src": "/img/app.png",
-        "alt": "DiffuZe"
+        "alt": "La Escuelita App"
       },
       {
         "src": "/img/app1.png",
-        "alt": "DiffuZe"
+        "alt": "La Escuelita App"
       },
       {
         "src": "/img/app2.png",
-        "alt": "DiffuZe"
+        "alt": "La Escuelita App"
       },
       {
         "src": "/img/app3.png",
-        "alt": "DiffuZe"
+        "alt": "La Escuelita App"
       },
       {
         "src": "/img/app4.png",
-        "alt": "DiffuZe"
+        "alt": "La Escuelita App"
       },
       {
         "src": "/img/app5.png",
-        "alt": "DiffuZe"
+        "alt": "La Escuelita App"
       }
     ],
     "text": "La Escuelita App is a custom web platform designed to help the NGO coordinate its educational activities and manage volunteer registrations. Built with Next.js, Supabase, and Clerk, it includes features such as secure authentication, a dynamic calendar, session capacity limits, and admin dashboards. I developed the full frontend and API integration, focusing on clarity, autonomy, and sustainability for the team on-site."
-},
+  },
   {
     "id": "3",
     "title": "diffuZe",
