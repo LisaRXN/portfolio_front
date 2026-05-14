@@ -31,11 +31,11 @@ export function Projects() {
         <title>My Fullstack Projects</title>
         <meta
           name="description"
-          content="Explore my latest projects built with fullstack development using modern web technologies."
+          content="Explore my latest projects built with Frontend development using modern web technologies."
         />
         <meta
           name="keywords"
-          content="React, Web Development,Fullstack, Projects, Technology"
+          content="React, Web Development, Fullstack, Projects, Technology"
         />
         <meta name="robots" content="index, follow" />
       </Helmet>
@@ -45,10 +45,10 @@ export function Projects() {
           title="My projects"
           subtitle="Explore my work, where passion meets purpose."
         />
-        <div class="project-container">
+        <div className="project-container">
           {projects.map((project, index) => {
             return (
-              <div>
+              <>
                 <Title title={project.title} />
                 <Carousel
                   key={index}
@@ -65,7 +65,7 @@ export function Projects() {
                     label: link.label,
                   }))}
                 />
-              </div>
+              </>
             );
           })}
         </div>

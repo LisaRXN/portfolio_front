@@ -46,7 +46,7 @@ export function About() {
         />
         <meta
           name="keywords"
-          content="web development, fullstack, programming, about me, developer, journey, react, node.js, php, javascript, mysql. "
+          content="web development, Frontend, programming, about me, developer, journey, react, node.js, php, javascript, mysql. "
         />
         <meta name="robots" content="index, follow" />
       </Helmet>
@@ -88,7 +88,7 @@ export function About() {
           <div className="page-about-right">
             <img
               src="/img/lisa2.png"
-              alt="Portrait of Lisa Eriksen, fullstack web developper"
+              alt="Portrait of Lisa Eriksen, Frontend web developper"
             ></img>
           </div>
         </div>

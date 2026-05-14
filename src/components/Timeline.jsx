@@ -5,7 +5,7 @@ const events = [
   {
     id: 1,
     date: "February 2026",
-    name:"Frontend Developer — IoT Platform",
+    name:"Frontend Engineer — IoT Platform",
     description: "at Thinger.io, Madrid, Spain. (Angular 19, AngularJS)",
     img: "/img/computer.png",
   },

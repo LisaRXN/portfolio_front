@@ -54,9 +54,9 @@ export function Home() {
         <title>Home - Porfolio Lisa Eriksen</title>
         <meta
           name="description"
-          content="Welcome to the homepage of my Fullstack Portfolio !"
+          content="Welcome to the homepage of my Frontend Portfolio !"
         />
-        <meta name="keywords" content="Home, homepage, Fullstack Portfolio" />
+        <meta name="keywords" content="Home, homepage, Frontend Portfolio" />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -67,7 +67,7 @@ export function Home() {
           <div className="banner-left">
             <p className="banner-title">
               Hi, I{"'"}m Lisa, a passionate{" "}
-              <span className="gradient-text">Full Stack</span> developer
+              <span className="gradient-text">Front End</span> developer
             </p>
 
             <div className="banner-text">
@@ -81,7 +81,7 @@ export function Home() {
           <div className="banner-right">
             <img
               src="/img/lisa.png"
-              alt="Portrait of Lisa Eriksen, a fullstack web developper"
+              alt="Portrait of Lisa Eriksen, a Frontend Developper"
             ></img>
             <span></span>
           </div>

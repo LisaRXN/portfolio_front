@@ -20,7 +20,7 @@ export function Epitech() {
     document.title = "Epitech";
   }, []);
 
-  const [text, setText] = useState([
+  const [text] = useState([
     "Exclusively visible to my amazing teaching team !",
   ]);
 
@@ -61,7 +61,7 @@ export function Epitech() {
           <div className="banner-right">
             <img
               src="/img/lisa.png"
-              alt="Portrait of Lisa Eriksen, a fullstack web developper"
+              alt="Portrait of Lisa Eriksen, a Frontend web developper"
             ></img>
           </div>
         </section>
