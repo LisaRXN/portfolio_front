@@ -25,13 +25,18 @@ export function Projects() {
       .catch((error) => console.error("Error fetching JSON:", error));
   }, []);
 
-
   return (
     <>
       <Helmet>
         <title>My Fullstack Projects</title>
-        <meta name="description" content="Explore my latest projects built with fullstack development using modern web technologies." />
-        <meta name="keywords" content="React, Web Development,Fullstack, Projects, Technology" />
+        <meta
+          name="description"
+          content="Explore my latest projects built with fullstack development using modern web technologies."
+        />
+        <meta
+          name="keywords"
+          content="React, Web Development,Fullstack, Projects, Technology"
+        />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -40,26 +45,30 @@ export function Projects() {
           title="My projects"
           subtitle="Explore my work, where passion meets purpose."
         />
-
-        {projects.map((project, index) => {
-          return (
-            <>
-              <Title title={project.title} />
-              <Carousel key={index} slides={project.slides} project={project} />
-              <CardProject
-                key={`cardProject-${index}`}
-                title={project.title}
-                stack={project.stack}
-                text={project.text}
-                links={project.links.map((link) => ({
-                  href: link.href,
-                  label: link.label,
-                }))}
-              />
-            </>
-          );
-        })}
-
+        <div class="project-container">
+          {projects.map((project, index) => {
+            return (
+              <div>
+                <Title title={project.title} />
+                <Carousel
+                  key={index}
+                  slides={project.slides}
+                  project={project}
+                />
+                <CardProject
+                  key={`cardProject-${index}`}
+                  title={project.title}
+                  stack={project.stack}
+                  text={project.text}
+                  links={project.links.map((link) => ({
+                    href: link.href,
+                    label: link.label,
+                  }))}
+                />
+              </div>
+            );
+          })}
+        </div>
 
         <Title title="comments" />
 
@@ -80,7 +89,6 @@ export function Projects() {
           </div>
         </div>
       </div>
-
     </>
   );
 }

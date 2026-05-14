@@ -1,4 +1,35 @@
-[
+[  {
+    "id": "0",
+    "title": "thinger.io",
+    "image": "img/thinger1.png",
+    "stack": "Angular 19, TypeScript, Tailwind",
+    "description": "Migration of the Thinger.io IoT platform from AngularJS to Angular 19 with a complete UI modernization.",
+    "links": [
+      {
+        "href": "https://thinger.io/",
+        "label": "Live"
+      }
+    ],
+    "slides": [
+      {
+        "src": "/img/thinger1.png",
+        "alt": "thinger"
+      },
+      {
+        "src": "/img/thinger2.png",
+        "alt": "thinger"
+      },
+      {
+        "src": "/img/thinger3.png",
+        "alt": "thinger"
+      },
+      {
+        "src": "/img/thinger4.png",
+        "alt": "thinger"
+      }
+    ],
+    "text": "Thinger.io is an IoT platform used to connect, manage, and monitor devices and data in real time. My work focuses on migrating the application from AngularJS to Angular 19 while modernizing the overall user interface and improving maintainability, performance, and scalability. I contribute to the frontend architecture, redesign key interfaces, and help create a cleaner and more modern user experience."
+  },
   {
     "id": "0",
     "title": "barnabé.",
@@ -63,7 +94,7 @@
     "id": "1",
     "title": "baticloud",
     "image": "img/baticloud.png",
-    "stack": "React, TypeScript, Tailwind, Zod, Zustand, TanStack Query",
+    "stack": "Next.js, TypeScript, Tailwind, Zod, Zustand, TanStack Query, AuthO",
     "description": "A web application for artisans to manage interventions, teams, quotes, and invoices from a centralized dashboard.",
     "links": [
       {
@@ -106,6 +137,50 @@
       }
     ],
     "text": "BatiCloud is a modern platform built for artisans to centralize their operations. It allows management of interventions, teams, quotes, and invoices, featuring a clean architecture with Ports & Adapters and reusable UI components. I implemented the full frontend with React, focused on code clarity, maintainability, and scalability. Here is the demo with integrated in-memory data mocks."
+  },
+  {
+    "id": "3",
+    "title": "Renacer",
+    "image": "img/renacer.png",
+    "stack": "Next.js, TypeScript, Tailwind, Zod, Supabase, Clerk, Stripe",
+    "description": "Yoga class management platform with booking, scheduling, Stripe payments, and an admin dashboard for instructors and subscription plans.",
+    "links": [
+      {
+        "href": "https://renacerstudioyoga.com/",
+        "label": "Live"
+      },
+      {
+        "href": "https://github.com/LisaRXN/renacer",
+        "label": "GitHub"
+      }
+    ],
+    "slides": [
+      {
+        "src": "/img/renacer.png",
+        "alt": "Renacer Home page"
+      },
+      {
+        "src": "/img/renacer1.png",
+        "alt": "Renacer Planning"
+      },
+      {
+        "src": "/img/renacer2.png",
+        "alt": " Classes view"
+      },
+      {
+        "src": "/img/renacer3.png",
+        "alt": "Renacer Dashboard"
+      },
+      {
+        "src": "/img/renacer4.png",
+        "alt": "Renacer Plans"
+      },
+      {
+        "src": "/img/renacer5.png",
+        "alt": "Stripe View"
+      }
+    ],
+    "text": "Renacer is a modern platform designed for yoga studios to centralize class management and daily operations. It enables users to book and cancel classes, view schedules through an intuitive calendar interface, and manage memberships seamlessly. The admin area provides tools to manage subscription plans, instructors, schedules, and studio operations. I implemented the full frontend with React, focusing on clean architecture, reusable UI components, and a scalable, maintainable codebase."
   },
   {
     "id": "2",
@@ -251,28 +326,7 @@
     ],
     "text": "Taskify is a task management web application inspired by Trello, built with Next.js. It allows users to create and organize boards, lists, and cards to efficiently track project progress. Authentication is handled through Clerk, ensuring a secure and seamless user experience. Data is stored and synchronized in real time using Supabase."
   },
-  {
-    "id": "6",
-    "title": "Taskflow",
-    "image": "img/taskflow.png",
-    "stack": "React TypeScript Tailwind Jest",
-    "description": "A Kanban-style task management app with drag-and-drop, task adding, deleting, and state persistence",
-    "links": [
-      {
-        "href": "https://github.com/LisaRXN/react-taskflow",
-        "label": "Github"
-      }
-    ],
-    "slides": [
-      {
-        "src": "/img/taskflow.png",
-        "alt": "Taskflow Kanban board screenshot"
-      }
-    ],
-    "text": "Taskflow is a React and TypeScript application designed for efficient task management using a Kanban board interface. It features drag-and-drop functionality powered by @hello-pangea/dnd, enabling users to add, move, and delete tasks across columns such as 'To Do', 'In Progress', and 'Done'. The app persists state locally using localStorage, ensuring your tasks stay saved between sessions. Styled with Tailwind CSS for a clean and responsive UI, Taskflow helps users stay organized and productive."
-  },
-
-  {
+    {
     "id": "5",
     "title": "cynthia alarcón",
     "image": "img/cynthia1.png",
@@ -308,6 +362,28 @@
     ],
     "text": "I designed and developed an online portfolio for an creative copywriter, using React and Tailwind. The goal was to create a modern and professional interface that highlights her work while providing a smooth and intuitive user experience. I handled the entire UI/UX design, ensuring the site reflects her visual identity and creativity. The frontend was fully developed to guarantee fast and responsive navigation, with a focus on elegantly showcasing her projects and achievements."
   },
+  {
+    "id": "6",
+    "title": "Taskflow",
+    "image": "img/taskflow.png",
+    "stack": "React TypeScript Tailwind Jest",
+    "description": "A Kanban-style task management app with drag-and-drop, task adding, deleting, and state persistence",
+    "links": [
+      {
+        "href": "https://github.com/LisaRXN/react-taskflow",
+        "label": "Github"
+      }
+    ],
+    "slides": [
+      {
+        "src": "/img/taskflow.png",
+        "alt": "Taskflow Kanban board screenshot"
+      }
+    ],
+    "text": "Taskflow is a React and TypeScript application designed for efficient task management using a Kanban board interface. It features drag-and-drop functionality powered by @hello-pangea/dnd, enabling users to add, move, and delete tasks across columns such as 'To Do', 'In Progress', and 'Done'. The app persists state locally using localStorage, ensuring your tasks stay saved between sessions. Styled with Tailwind CSS for a clean and responsive UI, Taskflow helps users stay organized and productive."
+  },
+
+
   {
     "id": "6",
     "title": "yowl",
