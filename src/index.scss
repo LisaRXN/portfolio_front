@@ -1107,42 +1107,52 @@ $hover-color: #ddd;
 //-------------------- Page Projects -----------------------//
 //----------------------------------------------------------//
 
+/* Mobile-first : la base cible le mobile, les media queries min-width
+   enrichissent pour les écrans plus larges. */
 .page-projects {
-  padding: 0 25px 0 25px;
-  padding-top: 190px;
+  padding: 140px 16px 0;
 
   &-title {
     @include flex-center($justify: left);
+    flex-wrap: wrap;
   }
 
+  &-title h1,
+  &-title span {
+    font-size: 2.2rem;
+  }
   &-title h1 {
-    font-size: 50px;
     color: white;
   }
   &-title span {
-    font-size: 50px;
     color: $yellow;
   }
 
   &-subtitle {
-    font-size: 1.1em;
+    font-size: 1rem;
     color: $light;
-    padding: 20px;
+    padding: 16px 0;
+    overflow-wrap: anywhere;
   }
 }
 
 .project-container {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0; // évite le débordement (min-content) des enfants flex
 }
 
 .carousel {
-  width: 80%;
-  aspect-ratio: var(--aspect-ratio-video);
+  width: 100%;
   max-width: 768px;
-  margin: auto;
+  margin: 0 auto;
+  min-width: 0;
 }
 
+.swiper {
+  width: 100%;
+}
 .swiper-wrapper {
   height: auto;
 }
@@ -1150,52 +1160,44 @@ $hover-color: #ddd;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ddd;
-  border: 1px solid #ccc;
-  font-size: 20px;
+  background: $dark;
   height: auto;
 }
 
+.swiper-img,
 .swiper-iframe {
   display: block;
-  border: none;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  aspect-ratio: 16/9;
-}
-
-.swiper-img {
-  display: block;
   width: 100%;
   height: auto;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   object-position: top;
-  aspect-ratio: 16/9;
+  border: none;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
 }
 .swiper-button-prev {
-  left: 10px !important; /* Décalé à droite */
+  left: 8px !important;
 }
 .swiper-button-next {
-  right: 10px !important; /* Décalé à droite */
+  right: 8px !important;
 }
 .swiper-button-next::after,
 .swiper-button-prev::after {
   color: $yellow;
+  font-size: 1.3rem !important;
 }
 
 .project-card {
   border: 1px solid $lightgrey;
-  width: 80%;
+  width: 100%;
   max-width: 768px;
-  margin: auto;
+  margin: 16px auto 0;
 
   &-body p {
     text-transform: uppercase;
@@ -1221,8 +1223,9 @@ $hover-color: #ddd;
 }
 
 .form {
-  width: 50%;
-  margin: auto;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
 
   &-comments-container {
     @include flex-center($direction: column, $align: start);
@@ -1245,40 +1248,35 @@ $hover-color: #ddd;
   }
 }
 
-@media screen and (max-width: 800px) {
-  .form {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 600px) {
+/* ---- Tablette / desktop ---- */
+@media screen and (min-width: 768px) {
   .page-projects {
-    padding: 0px 10px 0 10px;
-    padding-top: 140px;
+    padding: 190px 25px 0;
 
-    &-title h1 {
-      font-size: 35px;
-      color: white;
+    &-title h1,
+    &-title span {
+      font-size: 50px;
+    }
+
+    &-subtitle {
+      font-size: 1.1em;
+      padding: 20px;
     }
   }
-  .swiper-img {
-    height: 300px;
+
+  .carousel,
+  .project-card {
+    width: 80%;
   }
-  .swiper-wrapper {
-    height: 300px;
+
+  .form {
+    width: 60%;
   }
-  .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #ddd;
-    border: 1px solid #ccc;
-    font-size: 20px;
-    height: 400px;
-  }
-  .swiper-iframe {
-    position: absolute;
-    top: -50px;
-    height: 350px;
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 40px;
+    height: 40px;
   }
 }
 
